@@ -14,7 +14,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/establishments/:establishmentId/zones/:zoneId" element={<Index />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
